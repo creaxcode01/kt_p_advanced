@@ -22,7 +22,7 @@ object RestaurantTables {
 
 
 fun main() {
-    RestaurantTables.addCustomer("Georges") // it doesn't to be RestaurantTables().addCustomer("Georges") because it's not an instance
+    RestaurantTables.addCustomer("Georges") // it doesn't have to be RestaurantTables().addCustomer("Georges") because it's not an instance but a shortcut to the class
     RestaurantTables.addCustomer("Lisa")
     RestaurantTables.removeCustomer("Georges") 
 }

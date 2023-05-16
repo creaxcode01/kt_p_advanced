@@ -16,13 +16,20 @@ Note: In this example, Order is the outer class.
 class Order {  // Outer class
     val orderId = 1 
 
-    class DeliveryDetails {  // Nested class, class in a class
+    class DeliveryDetails {  // Nested class, that means a class in a class (and static)
+        val orderId = 1 
         val deliveryFeeInDollars = 10 
     } 
 
 } 
 
-println(Order.DeliveryDetails().deliveryFeeInDollars).  // How to acces to the nested class
-                                                        // nested class static by default
-                                                        // doesn't need an instance
 
+
+fun main() {                                            // statique
+println(Order.DeliveryDetails().deliveryFeeInDollars)  // How to acces to the nested class
+                                                        // nested class is static by default
+                                                        // doesn't need an instance
+                                        
+println(Order().orderId) // non statique
+
+}

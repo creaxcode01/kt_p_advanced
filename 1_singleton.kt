@@ -1,12 +1,12 @@
 /* Singleton est utilisé lorqu'il n'y a besoin que d'une seule instance d'un type d'object
-par exemple pour le nom de son entreprise, comme ce sera toujours le même un single sera adapté la ou une classe sera superflue */
+par exemple pour le nom de son entreprise, comme ce sera toujours le même un singleton sera adapté la ou une classe sera superflue */
 
 // a Singleton object can inherit another class or another interface
 
 
 import java.util.*;
 
-object Company {  // On utilise object pour un singleton et non pas class
+object Company {  // On utilise object pour un singleton et non pas class         // un singleton est statique ce qui veut dire que ce n'est pas une instance de classe (objet) mais une sorte de raccourci vers la classe
     var companyName: String = "Little Lemon"
     var yearOpened: Int = 2019
     
