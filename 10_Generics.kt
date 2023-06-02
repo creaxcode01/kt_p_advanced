@@ -61,7 +61,7 @@ fun main() {
     var ageString :Carr<String> = Carr("2016")   // instanciation d'une méthode avec argument générique
     var ageBoolean :Carr<Boolean> = Carr(false)
 
-    var ageIntTwo = Carr(2038)
+    var ageIntTwo = Carr(2038)   // avec l'inférence de type le compilateur déduit que c'est un Int et remplace les <T> par des Int
     
 
 
