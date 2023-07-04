@@ -27,3 +27,5 @@ companion object Registration  {     // coding convention -> you have to put com
 
 
 }
+
+// acceder à la variable (statique) du compagnon object =   Waiter.branchName  et Waiter.branchAdress

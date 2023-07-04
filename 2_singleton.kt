@@ -1,5 +1,6 @@
 
-object RestaurantTables {
+
+object RestaurantTables {        // un singleton ou object dans Kotlin 
 
     
     val customers: MutableList<String> = mutableListOf() // mutableListOf() is an instance
